@@ -18,3 +18,53 @@
     </div>
   </div>
 </template>
+
+<style>
+.nav-bar {
+  background-color: #2E2E2E;
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+  margin: auto;
+  font-size: 14px;
+}
+
+.navbar_left {
+  display: flex;
+  width: 33.3%;
+}
+
+.margin-a {
+  margin: auto;
+}
+
+.navbar_right {
+  width: 33.3%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-bar a {
+  color: #FFFFFF;
+  padding: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input[type="text" i] {
+  padding: 1px 2px;
+}
+
+input[type=submit] {
+  text-transform: uppercase;
+  padding: 3px 5px;
+  background: lightgrey;
+  border: 0 none;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 0;
+}
+</style>
